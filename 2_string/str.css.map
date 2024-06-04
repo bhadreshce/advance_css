@@ -1,1 +1,10 @@
-{"version":3,"sources":["string.scss","string.css"],"names":[],"mappings":"AAEA;EACI,oBAAA;EACA,iBAAA;ACDJ","file":"string.css"}
+{
+    "version": 3,
+    "sources": [
+        "str.scss",
+        "str.css"
+    ],
+    "names": [],
+    "mappings": "AAEA;EACI,oBAAA;EACA,iBAAA;ACDJ",
+    "file": "string.css"
+}

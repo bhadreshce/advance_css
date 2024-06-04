@@ -1,20 +1,23 @@
-@use "sass:math";
 
-@mixin avatar($size, $circle: false) {
-    width: $size;
-    height: $size;
+$has-border: true;
 
-    @if $circle {
-        border-radius: math.div($size, 2);
+
+@mixin box($width, $height, $background-color) {
+    width: $width;
+    height: $height;
+    background-color: $background-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; 
+
+    @if $has-border {
+        border: 2px solid black; 
     }
 }
 
-.upperDiv {
-    @include avatar(100px, $circle: false);
-    background-color: red;
-}
-
-.innerDiv {
-    @include avatar(100px, $circle: true);
-    background-color: aquamarine;
+.pink-box {
+    @include box(200px, 200px, pink);
+    color: white; 
+    font-size: 20px; 
 }

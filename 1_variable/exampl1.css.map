@@ -1,1 +1,10 @@
-{"version":3,"sources":["prog1.scss","prog1.css"],"names":[],"mappings":"AAGA;EACI,eAJG;EAKH,cAJS;EAKT,yCAAA;ACFJ","file":"prog1.css"}
+{
+    "version": 3,
+    "sources": [
+        "prog1.scss",
+        "prog1.css"
+    ],
+    "names": [],
+    "mappings": "AAGA;EACI,eAJG;EAKH,cAJS;EAKT,yCAAA;ACFJ",
+    "file": "exampl1.css"
+}

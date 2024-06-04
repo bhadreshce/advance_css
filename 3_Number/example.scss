@@ -1,20 +1,20 @@
 @use "sass:math";
 
-$speed :math.div(1s, 50px);
+$speed: math.div(1s, 100px); // Speed calculation: 1s per 100px
 
-@mixin move($left-start, $left-end) {
-    position: absolute;
-    left: $left-start;
-    transition: left ($left-end - $left-start) * $speed;
+@mixin move-vertical($top-start, $top-end) {
+  position: absolute;
+  top: $top-start;
+  transition: top math.div(($top-end - $top-start), 1px) * $speed;
 
-    &:hover {
-        left: $left-end;
-    }
+  &:hover {
+    top: $top-end;
+  }
 }
 
-.slider {
-    height: 100px;
-    width: 100px;
-    background-color: aqua;
-    @include move(10px, 120px)
+.vertical-slider {
+  height: 100px;
+  width: 100px;
+  background-color: lightcoral;
+  @include move-vertical(20px, 200px);
 }

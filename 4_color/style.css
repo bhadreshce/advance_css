@@ -1,5 +1,12 @@
-.mydiv {
-  height: 100px;
-  width: 100px;
-  background-color: #095a2b;
-}/*# sourceMappingURL=style.css.map */
+.pink-box {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}

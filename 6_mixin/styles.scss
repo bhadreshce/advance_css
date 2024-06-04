@@ -1,0 +1,23 @@
+
+@mixin box($width, $height, $background-color, $border-radius: 0) {
+  width: $width;
+  height: $height;
+  background-color: $background-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: $border-radius; 
+}
+
+
+.pink-box {
+  @include box(200px, 200px, pink, 10px);
+  color: white;
+  font-size: 20px;
+}
+
+.blue-box {
+  @include box(150px, 150px, lightblue, 5px);
+  color: darkblue;
+  font-size: 
+}
