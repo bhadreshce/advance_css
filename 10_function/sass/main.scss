@@ -1,0 +1,10 @@
+$width:200;
+@function change-width($px){
+    @return $px/2+px;
+}
+
+.box1{
+    width: change-width($width);
+    background-color: aqua;
+    height: 200px;
+}

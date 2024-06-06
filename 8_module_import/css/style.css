@@ -1,0 +1,15 @@
+.button {
+  height: 100px;
+  width: 100px; }
+
+.primary-btn {
+  background-color: 0; }
+
+.secondary-btn {
+  background-color: gray; }
+
+.success {
+  background-color: green; }
+
+.error {
+  background-color: red; }

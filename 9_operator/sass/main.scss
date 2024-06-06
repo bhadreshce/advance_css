@@ -1,0 +1,14 @@
+$px:2;
+$sec:200;
+.box1{
+ height: $px*100+px;
+ border: 2px solid red;
+width: 300px;
+}
+
+.box2{
+ height: ($sec/2)*$px +px;
+ border: 2px solid red;
+ width: ($px*$sec)+ px;
+ 
+}

@@ -1,0 +1,22 @@
+.box1{
+    margin-top: ceil(20.4)+px;
+}
+
+@debug mix(red, rgb(255, 234, 237));
+
+
+.box2{
+    margin-top: round(3.6)px;
+      background-color: lighten(#000000, 10);
+    height: 100px;
+    width: 100px;
+}
+
+.box3{
+    margin: max(4px,5px,6px );
+    margin-bottom: random(9)+px;
+    background-color: darken(#d87676,20 );
+    height: 100px;
+    width: 100px;
+}
+

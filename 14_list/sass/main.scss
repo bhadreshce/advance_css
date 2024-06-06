@@ -1,0 +1,13 @@
+$list: 10px,20px,30px,40px;
+$list1: 1px, 1px ,1px, 1px;
+.box1{
+    margin: length($list);
+}
+
+.box2{
+    margin: set-nth($list, 1, 0px );
+}
+
+.box3{
+    margin: join($list1 , $list , space);
+}

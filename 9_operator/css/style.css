@@ -1,0 +1,9 @@
+.box1 {
+  height: 200;
+  border: 2px solid red;
+  width: 300px; }
+
+.box2 {
+  height: 200px;
+  border: 2px solid red;
+  width: 400px; }

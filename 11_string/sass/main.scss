@@ -1,0 +1,19 @@
+.box1{
+    font-family: quote(Arial);
+}
+
+.box2{
+    font-family: to-upper-case(Arial);
+}
+
+.box3{
+    font-family: str-length(Arial);
+}
+
+.box3{
+    font-family: str-index($string: "Arial or", $substring: "or");
+}
+
+.box3{
+    font-family: str-slice( "Arial or", 0,  4);
+}
