@@ -1,11 +1,11 @@
-.vertical-slider {
+.slider {
   height: 100px;
   width: 100px;
-  background-color: lightcoral;
+  background-color: aqua;
   position: absolute;
-  top: 20px;
-  transition: top 1.8s;
+  left: 10px;
+  transition: left 2.2s;
 }
-.vertical-slider:hover {
-  top: 200px;
-}
+.slider:hover {
+  left: 120px;
+}/*# sourceMappingURL=num.css.map */

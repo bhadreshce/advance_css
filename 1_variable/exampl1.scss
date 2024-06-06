@@ -1,17 +1,8 @@
-// Define variables
-$primary-color: pink;
-$secondary-color: lightblue;
-$tertiary-color: lightgreen;
+$fs-1: 50px;
+$red-color : #ff0000;
 
-$primary-text-color: white;
-$secondary-text-color: darkblue;
-$tertiary-text-color: darkgreen;
-
-$border-radius: 10px;
-$padding: 20px;
-$font-size-large: 20px;
-$font-size-medium: 18px;
-$font-size-small: 16px;
-
-
-@mixin box($width, $height, $background-color, $text-color, $font
+.myheading {
+    font-size: $fs-1;
+    color: $red-color;
+    font-family: Arial, Helvetica, sans-serif;
+}

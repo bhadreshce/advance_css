@@ -1,0 +1,40 @@
+/* styles.scss */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0; }
+
+.main-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center; }
+  .main-header h1 {
+    margin: 0;
+    font-size: 2.5em; }
+  .main-header .main-nav {
+    margin-top: 10px; }
+    .main-header .main-nav ul {
+      list-style: none;
+      padding: 0; }
+      .main-header .main-nav ul li {
+        display: inline-block;
+        margin: 0 10px; }
+        .main-header .main-nav ul li a {
+          color: #fff;
+          text-decoration: none; }
+          .main-header .main-nav ul li a:hover {
+            text-decoration: underline; }
+
+.content {
+  padding: 20px; }
+  .content .post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px; }
+    .content .post h2 {
+      margin-top: 0; }
+    .content .post p {
+      line-height: 1.6; }
