@@ -1,0 +1,33 @@
+%box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
+$text-color:black;
+$bg-color:aqua;
+
+.row{
+    @extend %box;
+
+}
+
+.btn{
+    width: 100%;
+    margin: 10px;
+}
+
+.box{
+    color: $text-color;
+    background-color: $bg-color;
+    padding: 15px;
+}
+.container{
+    @extend %box
+}
+.bt{
+    width: 25%;
+}

@@ -1,0 +1,23 @@
+.container, .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+
+.btn {
+  width: 100%;
+  margin: 10px;
+}
+
+.box {
+  color: black;
+  background-color: aqua;
+  padding: 15px;
+}
+
+.bt {
+  width: 25%;
+}/*# sourceMappingURL=style.css.map */
