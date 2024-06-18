@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/riva-dashboard-tailwind/riva-dashboard.css">
+</head>
+
+<body class="bg-gray-100">
+  <div class="container mx-auto py-10">
+    <div class="bg-white rounded-lg shadow-lg p-5">
+      <header class="border-b border-gray-200 pb-4 mb-5">
+        <h2 class="text-2xl font-semibold text-gray-800">Basic Table</h2>
+        <p class="text-gray-600">Basic table with card</p>
+      </header>
+      <div class="overflow-x-auto">
+        <table class="min-w-full bg-white">
+          <thead class="bg-gray-200">
+            <tr>
+              <th class="py-3 px-6 text-left text-sm font-semibold text-gray-800">Name</th>
+              <th class="py-3 px-6 text-right text-sm font-semibold text-gray-800">ID NO.</th>
+              <th class="py-3 px-6 text-right text-sm font-semibold text-gray-800">CREATED ON</th>
+              <th class="py-3 px-6 text-right text-sm font-semibold text-gray-800">STATUS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-gray-200">
+              <td class="py-4 px-6 text-left">Alice Johnson</td>
+              <td class="py-4 px-6 text-right">84736251</td>
+              <td class="py-4 px-6 text-right">23 Jun 2021</td>
+              <td class="py-4 px-6 text-right">
+                <button class="bg-red-500 text-white px-4 py-2 rounded">Pending</button>
+              </td>
+            </tr>
+            <tr class="border-b border-gray-200">
+              <td class="py-4 px-6 text-left">Bob Smith</td>
+              <td class="py-4 px-6 text-right">76483902</td>
+              <td class="py-4 px-6 text-right">11 Apr 2019</td>
+              <td class="py-4 px-6 text-right">
+                <button class="bg-yellow-500 text-white px-4 py-2 rounded">In Progress</button>
+              </td>
+            </tr>
+            <tr class="border-b border-gray-200">
+              <td class="py-4 px-6 text-left">Clara Davis</td>
+              <td class="py-4 px-6 text-right">92837465</td>
+              <td class="py-4 px-6 text-right">05 Mar 2020</td>
+              <td class="py-4 px-6 text-right">
+                <button class="bg-blue-400 text-white px-4 py-2 rounded">Fixed</button>
+              </td>
+            </tr>
+            <tr class="border-b border-gray-200">
+              <td class="py-4 px-6 text-left">Daniel Lee</td>
+              <td class="py-4 px-6 text-right">73649283</td>
+              <td class="py-4 px-6 text-right">28 Feb 2018</td>
+              <td class="py-4 px-6 text-right">
+                <button class="bg-green-500 text-white px-4 py-2 rounded">Completed</button>
+              </td>
+            </tr>
+            <tr class="border-b border-gray-200">
+              <td class="py-4 px-6 text-left">Eva Martinez</td>
+              <td class="py-4 px-6 text-right">56473829</td>
+              <td class="py-4 px-6 text-right">19 Oct 2016</td>
+              <td class="py-4 px-6 text-right">
+                <button class="bg-yellow-500 text-white px-4 py-2 rounded">In Progress</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
